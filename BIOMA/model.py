@@ -1,3 +1,4 @@
+#model.py
 import numpy as np
 
 class Triangle:
@@ -21,7 +22,7 @@ class Triangle:
         return vao
 
     def get_vertex_data(self):
-        vertex_data = [(0.6, -0.8, 0.0), (0.6, -0.8, 0.0), (0.0, 0.8, 0.0)]
+        vertex_data = [(-0.6, -0.8, 0.0), (0.6, -0.8, 0.0), (0.0, 0.8, 0.0)]
         vertex_data = np.array(vertex_data, dtype= 'f4')
         return vertex_data
     def gte_vbo(self):
